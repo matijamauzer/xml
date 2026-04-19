@@ -1,1 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <ime>Matija</ime>
+    <prezime>Mauzer</prezime>
+    <jmbg>1234567890123</jmbg>
+    <datum_rodenja>2005-12-16</datum_rodenja>
+    <godina_studija>2</godina_studija>
 
+    <kontakt>
+        <email>matija.mauzer@email.com</email>
+        <telefon>+385911234567</telefon>
+    </kontakt>
+
+    <kolegiji>
+        <kolegij>
+            <naziv>Podatkovna povezanost i digitalna infrastruktura</naziv>
+            <profesor>Alen Simec</profesor>
+            <ects>5</ects>
+        </kolegij>
+        <kolegij>
+            <naziv>Baze podataka</naziv>
+            <profesor>Tin Kramberger</profesor>
+            <ects>5</ects>
+        </kolegij>
+        <kolegij>
+            <naziv>Programiranje Web aplikacija</naziv>
+            <profesor>Alen Simec</profesor>
+            <ects>5</ects>
+        </kolegij>
+    </kolegiji>
+</student>
