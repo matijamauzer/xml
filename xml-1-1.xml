@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+    <ime>Matija</ime>
+    <prezime>Mauzer</prezime>
+    <jmbg>0246124947</jmbg>
+    <datum_rodenja>2005-12-16</datum_rodenja>
+    <godina_studija>2</godina_studija>
+    <studijski_program>Informatika</studijski_program>
+    
+    <adresa>
+        <ulica>Ilica 17</ulica>
+        <grad>Zagreb</grad>
+        <postanski_broj>10431</postanski_broj>
+    </adresa>
+</student>
