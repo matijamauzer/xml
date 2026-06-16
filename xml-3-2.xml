@@ -1,1 +1,15 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<Narudzba>
+    <Ime>Josip</Ime>
+    <Prezime>Dumic</Prezime>
+    <MjestoStanovanja>
+        <Adresa>Ilica 10</Adresa>
+        <Grad>Zagreb</Grad>
+        <Drzava>Hrvatska</Drzava>
+    </MjestoStanovanja>
+    <NaruceniArtikl>
+        <Naziv>Samsung S25</Naziv>
+        <Kolicina>1</Kolicina>
+        <Cijena>800</Cijena>
+    </NaruceniArtikl>
+</Narudzba>
