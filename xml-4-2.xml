@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<narudzba xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="narudzba.xsd">
+  <idNarudzbe>1001</idNarudzbe>
+  <kupac>Matija Mauzer</kupac>
+  <datumNarudzbe>2024-06-05</datumNarudzbe>
+  <cijena valuta="EUR">199.99</cijena>
+  <kolicina>10</kolicina>
+  <statusNarudzbe>prijavljen</statusNarudzbe>
+</narudzba>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="narudzba">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="idNarudzbe" type="xs:integer"/>
+        <xs:element name="kupac" type="xs:string"/>
+        <xs:element name="datumNarudzbe" type="xs:date"/>
+        <xs:element name="cijena">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:decimal">
+                <xs:attribute name="valuta" type="xs:string" use="required" fixed="EUR"/>
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="kolicina">
+          <xs:simpleType>
+            <xs:restriction base="xs:integer">
+              <xs:minInclusive value="1"/>
+              <xs:maxInclusive value="50"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="statusNarudzbe">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="prijavljen"/>
+              <xs:enumeration value="odjavljen"/>
+              <xs:enumeration value="u_obradi"/>
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
