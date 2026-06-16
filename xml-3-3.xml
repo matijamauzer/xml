@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Osoba spol="M">
+    <Ime>Matija</Ime>
+    <Prezime>Mauzer</Prezime>
+    <MjestoStanovanja>
+        <Adresa>Ilica 10</Adresa>
+        <Grad>Zagreb</Grad>
+        <Drzava>Hrvatska</Drzava>
+    </MjestoStanovanja>
+    <Kontakt>
+        <Mobitel>091 784 5352</Mobitel>
+        <KucniTelefon>01 613 9412</KucniTelefon>
+        <Email>matija.mauzer@gmail.com</Email>
+    </Kontakt>
+</Osoba>
